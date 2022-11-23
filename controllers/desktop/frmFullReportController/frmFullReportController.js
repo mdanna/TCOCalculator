@@ -13,6 +13,12 @@ define({
         this.view.lblNumSimple.text = numSimple + (isPerc ? '%' : '');
         this.view.lblNumModerate.text = numModerate + (isPerc ? '%' : '');
         this.view.lblNumComplex.text = numComplex + (isPerc ? '%' : '');
+        
+        const {costMXGoYear1, costCompetitorYear1, costMXGoYear3, costCompetitorYear3, costMXGoYear5, costCompetitorYear5} = tco.calculate(this.navigationContext);
+      
+        this.view.year1.setData(costMXGoYear1, costCompetitorYear1, numApps);
+        this.view.year3.setData(costMXGoYear3, costCompetitorYear3, numApps);
+        this.view.year5.setData(costMXGoYear5, costCompetitorYear5, numApps);
       }
     }
 

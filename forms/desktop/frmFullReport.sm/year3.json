@@ -104,6 +104,22 @@
                 "wType": "Label"
             }
         },
+        "lblTotalSaved": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d76b5d99253f45868dfac4aa72119b52",
+                "srcKUID": "bd3ba6d32caa46028a92bbfa4c4ada27",
+                "wType": "Label"
+            }
+        },
+        "lblTotalSavedLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f97b2de134344459902955cdc58cd384",
+                "srcKUID": "b8f9fe372e7d4afab9d32f1247c31362",
+                "wType": "Label"
+            }
+        },
         "lblTotalSavings": {
             "__events__": {},
             "__info__": {
@@ -117,22 +133,6 @@
             "__info__": {
                 "kuid": "cac549fe39844727afa85747a862fdb1",
                 "srcKUID": "e74debb9d4bb492faa5a37cd5491f26c",
-                "wType": "Label"
-            }
-        },
-        "lblTotaleSaved": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "d76b5d99253f45868dfac4aa72119b52",
-                "srcKUID": "bd3ba6d32caa46028a92bbfa4c4ada27",
-                "wType": "Label"
-            }
-        },
-        "lblTotaleSavedLabel": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "f97b2de134344459902955cdc58cd384",
-                "srcKUID": "b8f9fe372e7d4afab9d32f1247c31362",
                 "wType": "Label"
             }
         },
