@@ -42,7 +42,8 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "cmpHeader"
+        "cmpHeader",
+        "flxMain"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -50,6 +51,10 @@
             "channel": "desktop",
             "name": "frmFullReportController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1024
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -115,6 +120,9 @@
     "titleBarSkin": "s91ac70ad94f41c0b6881d698d92d510",
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": true
+    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false

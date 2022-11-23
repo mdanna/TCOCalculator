@@ -53,7 +53,16 @@ define({
       this.view.flxSeeFullReport.onClick = () => this.view.popupContactInfo.show();
 
       this.view.popupContactInfo.onClickOk = () => {
-        new voltmx.mvc.Navigation('frmFullReport').navigate(this.getAppsData());
+        const isPerc = this.view.fieldNumPerc.selection === 'perc';
+        const appsData = this.getAppsData();
+        const navigationData = isPerc ? {
+          ...appsData,
+          percSimple: this.view.fieldSimple.text,
+          percModerate: this.view.fieldModerate.text,
+          percComplex: this.view.fieldComplex.text,
+          isPerc
+        } : appsData;
+        new voltmx.mvc.Navigation('frmFullReport').navigate(navigationData);
       };
     };
   },
