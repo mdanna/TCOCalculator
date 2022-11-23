@@ -1,0 +1,58 @@
+{
+    "classname": "ContactInfo",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fc8cfc7d2135453e80e4f1c5d3402b4a",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "afce26c00d94408ba0c824cd95d97ddd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d5b86bf41ff9484fa4144f9217c7d641",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickOk",
+                    "pw": {
+                        "displayName": "onClickOk",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "afce26c00d94408ba0c824cd95d97ddd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.tcocalculator",
+    "version": "1.0.0"
+}

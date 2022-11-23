@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1a2b6b8210a4c16a113d6313f999867",
+    "_text_": "Disclaimer: HCL provides this Volt MX Go TCO calculator as a tool to help you explore the potential savings by moving your Lotus Notes apps to Volt MX  rather than competitive low-code platforms. You are solely responsible for your decision to use the TCO calculator, which is provided as an optional resource. The TCO calculator savings are indicative only. No rights or obligation can be derived from, or imposed on HCL arising out of, this calcualtor in any situation. Each saving and the full report that is obtained is based on the information provided by you. HCL accepts no liability for damage of any kind that is the direct or indirect result of your use of the TCO calculator, or for actions or decisions based on the calculator savings in the full value report. At no time does HCL store or distribute any TCO information you provide. The Volt MX Go TCO Calculator is the copyright of HCL Software. All rights reserved.",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblDisclaimer",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j73c98f152254371bd8aaa1c8c88ef8a",
+    "name": "kony.ui.Label",
+    "parent": "flxResultsInfo",
+    "pf": "frmHome",
+    "responsiveData": {
+        "b2": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}
