@@ -41,6 +41,8 @@ define({
       };
 
       this.view.lblReset.onTouchEnd = () => {
+        this.view.fieldHowManyApps.text = '';
+        this.view.fieldHowManyUsers.text = '';
         this.view.flxNumPerc.isVisible = false;
         this.view.fieldNumPerc.selection = 'none';
         this.view.lblOverallSavingsValue.text = '--%';
