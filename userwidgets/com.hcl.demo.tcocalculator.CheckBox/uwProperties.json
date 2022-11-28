@@ -33,7 +33,7 @@
             "custom": [
                 {
                     "access": "Write",
-                    "defaultValue": true,
+                    "defaultValue": false,
                     "group": "General",
                     "kuid": "d70100f1dff24e8390775e24e14d7242",
                     "originalPropertyKey": "selected",
@@ -67,6 +67,25 @@
                         "srcWidget": "lblText",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e639ad346ee34090884b17b84c364eec"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cb3940129c0c4af08d2e03f0d359f9d2",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblText",
                         "wType": "Label"
                     },
                     "srcWgtKUID": "e639ad346ee34090884b17b84c364eec"

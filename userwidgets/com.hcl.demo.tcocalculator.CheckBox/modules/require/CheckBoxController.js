@@ -10,6 +10,10 @@ define(function() {
           };
           this.initDone = true;
         }
+        
+        this.view.lblChecked.isVisible = this.selected;
+        this.view.lblUnchecked.isVisible = !this.selected;
+
       };	
     },
     //Logic for getters/setters of custom properties
@@ -19,8 +23,10 @@ define(function() {
       });
       defineSetter(this, 'selected', (value) => {
         this._selected = value;
-        this.view.lblChecked.isVisible = value;
-        this.view.lblUnchecked.isVisible = !value;
+        try{
+          this.view.lblChecked.isVisible = value;
+          this.view.lblUnchecked.isVisible = !value;
+        } catch(ignore){}
       });
     },
     

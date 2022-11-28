@@ -48,9 +48,8 @@
     "desktopweb": {
         "placeholderSkin": "s6bc082bba2744118bd649b35f23d681"
     },
-    "disabledSkins": {
-        "focusSkin": "s73570f4ed574e3c831418d0c2274d63"
-    },
+    "disabledSkins": {},
+    "focusskin": "s6fde9baffa44dce806b712e4f9f566e",
     "id": "txtField",
     "info": null,
     "iscustomlayout": false,
@@ -58,7 +57,7 @@
     "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "i2f412165b784e04bad4d38821560e72",
-    "mode": "N",
+    "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "ContactInfoEditField",
     "pf": "userwidgetmodel",

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "1dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -25,7 +25,7 @@
     "_text_": "Remember Me",
     "_width_": {
         "type": "string",
-        "value": "490dp"
+        "value": "90%"
     },
     "_wrapping_": 2,
     "android": {

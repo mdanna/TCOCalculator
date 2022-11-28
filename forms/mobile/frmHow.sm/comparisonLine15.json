@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_responsiveData_": {},
+    "_skin_": "sd9baa8d964946bbadc5b2607be7ce85",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ComparisonLine": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d0beec99a5794699a08643c9acc6f6ce",
+                "srcKUID": "h22681bbf00d47b1a0792fba9c24bbf1",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblCircle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4cc87c3ce8148f699a63cd92e3c2f4e",
+                "srcKUID": "f4a8ea0888fd4c568e7fe3fe3c1cf577",
+                "wType": "Label"
+            }
+        },
+        "lblLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c07c9bac85e542e3acea14c8a288a3ae",
+                "srcKUID": "d16b6c19f1224025a47f851115d4374d",
+                "wType": "Label"
+            },
+            "text": "MS SQL DB used, so data must be normalized and migrated"
+        }
+    },
+    "enablescrolling": true,
+    "id": "comparisonLine15",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d0beec99a5794699a08643c9acc6f6ce",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxComparisonLine2Cell3",
+    "pf": "frmHow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "h22681bbf00d47b1a0792fba9c24bbf1",
+    "wType": "UserWidgetInstance"
+}

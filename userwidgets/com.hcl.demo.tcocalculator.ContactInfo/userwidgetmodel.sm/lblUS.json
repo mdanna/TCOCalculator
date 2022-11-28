@@ -39,6 +39,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblUS",
@@ -59,6 +63,26 @@
     "name": "kony.ui.Label",
     "parent": "flxPopup",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

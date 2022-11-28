@@ -45,12 +45,11 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "desktopweb": {
+    "desktopweb": {},
+    "disabledSkins": {
         "placeholderSkin": "s6bc082bba2744118bd649b35f23d681"
     },
-    "disabledSkins": {
-        "focusSkin": "s73570f4ed574e3c831418d0c2274d63"
-    },
+    "focusskin": "sbc7dfd95894451093245c51bc30546c",
     "id": "txtField",
     "info": null,
     "iscustomlayout": false,
@@ -58,11 +57,11 @@
     "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "db45bce65d2140169d7918edc52969c1",
-    "mode": "A",
+    "mode": "N",
     "name": "kony.ui.TextBox2",
     "parent": "StandardEditField",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s6bc082bba2744118bd649b35f23d681",
+    "placeholderskin": null,
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

@@ -1,0 +1,110 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_responsiveData_": {},
+    "_skin_": "sd9baa8d964946bbadc5b2607be7ce85",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "DefinitionsLine": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "j2f45befe4644bf5ab396cd247a3683f",
+                "srcKUID": "g7858c3e3720496d876a502ef95ef750",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblCircle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a06208aa0f7f472c90f39995b02c59a1",
+                "srcKUID": "bf23682020324cf4a84179a5d42bec1f",
+                "wType": "Label"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            }
+        },
+        "lblDefinition": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c11ad195531c4bbda7747a9dfdf1c987",
+                "srcKUID": "e4e9438739304116a9e98a911e78b885",
+                "wType": "Label"
+            },
+            "text": "Any web or mobile screen that allows for entering, modifying data, or presenting a data grid."
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j08cc670dc0540cfa9984e8526927a51",
+                "srcKUID": "ba7331f6ded84af2930d6c2b7d17c5bc",
+                "wType": "Label"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            },
+            "text": "Pages:"
+        }
+    },
+    "enablescrolling": true,
+    "id": "definitionsLine1",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "j2f45befe4644bf5ab396cd247a3683f",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmHow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g7858c3e3720496d876a502ef95ef750",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,126 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_responsiveData_": {},
+    "_skin_": "sd9baa8d964946bbadc5b2607be7ce85",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "DefinitionsLine": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ba6262ef511a488288078cab6cc2f4a6",
+                "srcKUID": "g7858c3e3720496d876a502ef95ef750",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            }
+        },
+        "lblCircle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ff555da9ffcb40219a3ce54682db0d6e",
+                "srcKUID": "bf23682020324cf4a84179a5d42bec1f",
+                "wType": "Label"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            }
+        },
+        "lblDefinition": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j6397194d73043dfb9b208e58fbacdf6",
+                "srcKUID": "e4e9438739304116a9e98a911e78b885",
+                "wType": "Label"
+            },
+            "text": "Any integration with an external system or 3rd party enterprise system or SaaS solution such as SAP, Oracle, or Salesforce."
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cd630038895141c1b4b8f472262bad18",
+                "srcKUID": "ba7331f6ded84af2930d6c2b7d17c5bc",
+                "wType": "Label"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            },
+            "text": "Integrations:"
+        }
+    },
+    "enablescrolling": true,
+    "id": "definitionsLine3",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ba6262ef511a488288078cab6cc2f4a6",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmHow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g7858c3e3720496d876a502ef95ef750",
+    "wType": "UserWidgetInstance"
+}
