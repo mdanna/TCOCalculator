@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "",
     "_skin_": "s6fde9baffa44dce806b712e4f9f566e",
     "_text_": "",
     "_top_": {
@@ -46,7 +46,7 @@
     "containerweight": 100,
     "contentalignment": 4,
     "desktopweb": {
-        "placeholderSkin": "s6bc082bba2744118bd649b35f23d681"
+        "placeholderSkin": "s0e4950cf8b845819ba18c2c98f5e045"
     },
     "disabledSkins": {},
     "focusskin": "s6fde9baffa44dce806b712e4f9f566e",
@@ -61,7 +61,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "ContactInfoEditField",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s6bc082bba2744118bd649b35f23d681",
+    "placeholderskin": "s0e4950cf8b845819ba18c2c98f5e045",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

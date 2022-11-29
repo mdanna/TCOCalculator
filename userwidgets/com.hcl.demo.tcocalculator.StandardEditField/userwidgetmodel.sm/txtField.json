@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "33dp"
+        "value": "38dp"
     },
     "_left_": {
         "type": "string",
@@ -21,12 +21,12 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "",
     "_skin_": "sbc7dfd95894451093245c51bc30546c",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "3dp"
     },
     "_width_": {
         "type": "string",
@@ -45,13 +45,15 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "desktopweb": {},
-    "disabledSkins": {
-        "placeholderSkin": "s6bc082bba2744118bd649b35f23d681"
+    "desktopweb": {
+        "placeholderSkin": "s0e4950cf8b845819ba18c2c98f5e045"
     },
+    "disabledSkins": {},
     "focusskin": "sbc7dfd95894451093245c51bc30546c",
     "id": "txtField",
     "info": null,
+    "iphone": {},
+    "isSensitiveText": false,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
@@ -61,7 +63,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "StandardEditField",
     "pf": "userwidgetmodel",
-    "placeholderskin": null,
+    "placeholderskin": "s6bc082bba2744118bd649b35f23d681",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,
