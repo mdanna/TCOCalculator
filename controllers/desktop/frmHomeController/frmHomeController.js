@@ -31,9 +31,10 @@ define({
 
       this.view.flxCalculate.onClick = () => {
         if(this.validate()){
-          const {costMXGoYear1, costCompetitorYear1} = tco.calculate(this.getAppsData());
+          const appsData = this.getAppsData();
+          const {costMXGoYear1, costCompetitorYear1} = tco.calculate(appsData);
           const overallSavings = Math.round(((costCompetitorYear1 - costMXGoYear1)/costCompetitorYear1) * 100);
-          const totalSavings = Math.round((costCompetitorYear1 - costMXGoYear1) / 1000);
+          const totalSavings = Math.round((costCompetitorYear1 - costMXGoYear1));
           this.view.lblOverallSavingsValue.text = `${overallSavings}%`;
           this.view.lblTotalSavingsValue.text = `$${totalSavings}K`;
           this.view.flxResultsInfo.isVisible = true;
