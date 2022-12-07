@@ -49,6 +49,11 @@ define({
         }
       };
       
+      this.view.fieldHowManyApps.onTextChange = () => {
+        if(this.view.fieldNumPerc.selection === 'perc' || this.view.fieldNumPerc.selection === 'num'){
+          checkOnTextChange();
+        }
+      };
       this.view.fieldSimple.onTextChange = () => checkOnTextChange();
       this.view.fieldModerate.onTextChange = () => checkOnTextChange();
       this.view.fieldComplex.onTextChange = () => checkOnTextChange();
