@@ -83,7 +83,7 @@
                         "category": "skin",
                         "dependencyConditions": {},
                         "dependentKeysKUIDs": null,
-                        "displayName": "Normal",
+                        "displayName": "skinText",
                         "isHiddenInTool": false,
                         "srcWidget": "lblText",
                         "wType": "Label"

@@ -12,9 +12,9 @@ define({
       this.view.lblNumApps.text = numApps + '';
       this.view.lblUsersNumApps.text = numApps + '';
       this.view.lblNumUsers.text = numUsers + '';
-      this.view.lblNumSimple.text = numSimple + (isPerc ? '%' : '');
-      this.view.lblNumModerate.text = numModerate + (isPerc ? '%' : '');
-      this.view.lblNumComplex.text = numComplex + (isPerc ? '%' : '');
+      this.view.lblNumSimple.text = isPerc ? `${percSimple}%` : `${numSimple}`;
+      this.view.lblNumModerate.text = isPerc ? `${percModerate}%` : `${numModerate}`;
+      this.view.lblNumComplex.text = isPerc ? `${percComplex}%` : `${numComplex}`;
 
       const {costMXGoYear1, costCompetitorYear1, costMXGoYear3, costCompetitorYear3, costMXGoYear5, costCompetitorYear5} = tco.calculate(this.navigationContext);
 

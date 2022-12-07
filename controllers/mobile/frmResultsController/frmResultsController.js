@@ -13,8 +13,8 @@ define({
 
     this.view.preShow = () => {
       const {costMXGoYear1, costCompetitorYear1} = tco.calculate(this.navigationContext);
-      const overallSavings = Math.round(((costCompetitorYear1 - costMXGoYear1)/costCompetitorYear1) * 100);
-      const totalSavings = Math.round((costCompetitorYear1 - costMXGoYear1) / 1000);
+      const overallSavings = (((costCompetitorYear1 - costMXGoYear1)/costCompetitorYear1) * 100).toFixed(1);
+      const totalSavings = (costCompetitorYear1 - costMXGoYear1).toFixed(1);
       this.view.lblOverallSavings.text = `${overallSavings}%`;
       this.view.lblTotalSavings.text = `$${totalSavings}K`;
     };

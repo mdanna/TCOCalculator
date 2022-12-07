@@ -64,24 +64,9 @@
     "parent": "flxMain",
     "pf": "frmFullReport",
     "responsiveData": {
-        "b1": {
-            "width": {
-                "type": "string",
-                "value": "1000dp"
-            }
-        },
-        "b2": {
-            "width": {
-                "type": "string",
-                "value": "85%"
-            }
-        },
-        "b3": {
-            "width": {
-                "type": "string",
-                "value": "90%"
-            }
-        }
+        "b1": {},
+        "b2": {},
+        "b3": {}
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

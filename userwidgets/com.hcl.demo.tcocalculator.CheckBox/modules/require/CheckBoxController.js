@@ -8,12 +8,12 @@ define(function() {
             this.selected = !this.selected;
             this.onSelect(this.selected);
           };
+          
           this.initDone = true;
         }
         
         this.view.lblChecked.isVisible = this.selected;
         this.view.lblUnchecked.isVisible = !this.selected;
-
       };	
     },
     //Logic for getters/setters of custom properties

@@ -144,7 +144,8 @@
                 "kuid": "ac30bebe521340c0b53c23ec4ace4a59",
                 "srcKUID": "b825ffc86ebc48539d766d7edb1b671d",
                 "wType": "Label"
-            }
+            },
+            "text": "1 Year TCO"
         }
     },
     "enablescrolling": true,

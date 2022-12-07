@@ -48,7 +48,7 @@
     "kuid": "c392ad6a65884bcbb5e19776c5ad8208",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxRadio",
+    "parent": "flxNumber",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -29,11 +29,15 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "85%"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "flxRecap",
         "lblSeeTheFollowing",

@@ -47,7 +47,7 @@
     "id": "flxContactMe",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "a25ca2943ddc4db991c4a6718ea8e123",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

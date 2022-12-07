@@ -60,7 +60,7 @@
     }
   },
   "iphone": {
-    "font_name": "Helvetica",
+    "font_name": "Helvetica-Bold",
     "font_size": 250,
     "isForked": true,
     "shadow": {

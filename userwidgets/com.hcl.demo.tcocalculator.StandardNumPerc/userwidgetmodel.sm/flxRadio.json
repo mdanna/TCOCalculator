@@ -43,10 +43,8 @@
         "value": "50%"
     },
     "children": [
-        "flxLeft",
-        "lblNumber",
-        "flxRight",
-        "lblPercentage"
+        "flxNumber",
+        "flxPercentage"
     ],
     "clipbounds": true,
     "containerweight": 100,

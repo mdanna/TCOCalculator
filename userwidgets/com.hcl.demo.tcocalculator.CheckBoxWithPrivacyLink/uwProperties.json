@@ -1,0 +1,142 @@
+{
+    "classname": "CheckBoxWithPrivacyLink",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "dc48757e4d2c457d98623ef243895db9",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add9f1545b4b433d8189a2e17d2dbd9b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "a49da93e4084491585c9f3276771bf9f",
+                    "originalPropertyKey": "selected",
+                    "propertyIndex": 2,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "add9f1545b4b433d8189a2e17d2dbd9b",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e05d2a94f59e45778d92bdcc8a89e5e1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "de41703e411a4538a39a05f888f99582"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba769f6790c94796b3c9369fbc9e6d58",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblText",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "de41703e411a4538a39a05f888f99582"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ic93cbca3dc14b208fbd06bd7b5b0cc2",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "showPrivacy",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "showPrivacy",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblPrivacy",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j18b17e78f1c48b0a9e933a3c8c188e8"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "sdf7385686c1413091d4558ea1b5073f",
+                    "group": "General",
+                    "kuid": "f61d8b137b724c1d9572ba6c8f3419a5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinLink",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinLink",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblPrivacy",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j18b17e78f1c48b0a9e933a3c8c188e8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.tcocalculator",
+    "version": "1.0.0"
+}

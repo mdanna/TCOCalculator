@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "520dp"
+        "value": "90%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -53,12 +53,7 @@
     "parent": "flxPopup",
     "pf": "userwidgetmodel",
     "responsiveData": {
-        "b3": {
-            "width": {
-                "type": "string",
-                "value": "90%"
-            }
-        }
+        "b3": {}
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

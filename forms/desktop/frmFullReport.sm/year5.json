@@ -33,8 +33,6 @@
         "type": "string",
         "value": "30%"
     },
-    "android": {},
-    "androidwearos": {},
     "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
@@ -144,19 +142,15 @@
                 "wType": "Label"
             },
             "responsiveData": {},
-            "text": "Year 5"
+            "text": "5 Year TCO"
         }
     },
-    "desktopweb": {},
     "enablescrolling": true,
     "id": "year5",
     "info": null,
-    "ipad": {},
-    "iphone": {},
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kiosk": {},
     "kuid": "h65dab7d895f4635b1a13e22d4e83897",
     "layouttype": 4,
     "masterType": 0,
@@ -169,24 +163,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "fb07536a403a4daeadd5218d2d185557",
-    "spa": {},
-    "spaan": {},
-    "spaandroidtablet": {},
-    "spabb": {},
-    "spaip": {},
-    "spaipad": {},
-    "spamobile": {},
-    "spatablet": {},
-    "spawindowstablet": {},
-    "spawinphone8": {},
-    "tabrcandroid": {},
-    "vizProps": {
-        "hidewidgethierarchy": false
-    },
     "wType": "UserWidgetInstance",
-    "windows10": {},
-    "windows8": {},
-    "winphone10": {},
-    "winphone8": {},
     "zindex": 1
 }

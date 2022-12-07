@@ -43,11 +43,17 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s06f565e07074a6f83e08e25ccf323b9"
+        }
+    },
+    "disabledSkins": {},
     "enablescrolling": true,
     "id": "flxContactMe",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b46f2ae76faf47f8b72d0b5bd66ad70f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
