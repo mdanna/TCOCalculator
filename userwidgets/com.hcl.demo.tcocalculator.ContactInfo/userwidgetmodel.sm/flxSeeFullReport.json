@@ -49,6 +49,14 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxPopup",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -1,0 +1,168 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "425dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7f0c8ffeb3e493a986f0170586243c5",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ComparisonBox": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "h65dab7d895f4635b1a13e22d4e83897",
+                "srcKUID": "fb07536a403a4daeadd5218d2d185557",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            }
+        },
+        "lblSavingsPerApp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d8637934af134916968b6c824e7fdbc1",
+                "srcKUID": "i20a6f7bf111431e99dcccbc9ed55271",
+                "wType": "Label"
+            }
+        },
+        "lblSavingsPerAppLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fda6680253414bd8b3af656dedf7fa9d",
+                "srcKUID": "h298fed3e0bc4295885e41ce8b1ed654",
+                "wType": "Label"
+            }
+        },
+        "lblTotalCompetitorCost": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g14725e73b994642a7e90c42140aafb9",
+                "srcKUID": "dd3f24921ba447d3b2efb6c3ad2cce3f",
+                "wType": "Label"
+            }
+        },
+        "lblTotalCompetitorCostLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de3b5a4cbd444b86873de0cd343bdd11",
+                "srcKUID": "c701b48d26404b8fa5e5de141d5b987d",
+                "wType": "Label"
+            }
+        },
+        "lblTotalMXGoCost": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aab7f0609a974843a3a6aa4d44516bbd",
+                "srcKUID": "ae8436870bb6449ebe9a73505316b7a6",
+                "wType": "Label"
+            }
+        },
+        "lblTotalMXGoCostLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f700d6f96c0344fba80498f8ecdaefb9",
+                "srcKUID": "cba0cb2653a44834873beea87e1ad984",
+                "wType": "Label"
+            }
+        },
+        "lblTotalSaved": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e02a4cb902ca4fc0955bea2b2289d9ad",
+                "srcKUID": "bd3ba6d32caa46028a92bbfa4c4ada27",
+                "wType": "Label"
+            }
+        },
+        "lblTotalSavedLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7cf9043b9ff499f90ed9ea6455eab43",
+                "srcKUID": "b8f9fe372e7d4afab9d32f1247c31362",
+                "wType": "Label"
+            }
+        },
+        "lblTotalSavings": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0556ff85b574e9b8224b1cc396540b0",
+                "srcKUID": "afeea3f58cc244c59930a3ef93f6fafa",
+                "wType": "Label"
+            }
+        },
+        "lblTotalSavingsLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f13a4471709343af9ae8ed0e20c34ba3",
+                "srcKUID": "e74debb9d4bb492faa5a37cd5491f26c",
+                "wType": "Label"
+            }
+        },
+        "lblYear": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dd32bf158b0745ecb2784341106381ac",
+                "srcKUID": "b825ffc86ebc48539d766d7edb1b671d",
+                "wType": "Label"
+            },
+            "responsiveData": {},
+            "text": "5 Year TCO"
+        }
+    },
+    "enablescrolling": true,
+    "id": "year5",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "h65dab7d895f4635b1a13e22d4e83897",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxComparisons",
+    "pf": "frmFullReport",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "fb07536a403a4daeadd5218d2d185557",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

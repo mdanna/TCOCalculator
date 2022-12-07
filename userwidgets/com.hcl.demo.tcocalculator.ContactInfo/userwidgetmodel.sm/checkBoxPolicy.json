@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "520dp"
+        "value": "90%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -40,22 +40,24 @@
     },
     "containerweight": 0,
     "data": {
-        "selected": false,
-        "text": "I agree to HCL's Private Policy Statement."
+        "text": "I agree to HCL's"
     },
     "id": "checkBoxPolicy",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ec628524c8d2426ab422071b5bec54b1",
+    "kuid": "hf4584bb563447f8bbc77dc6b0d54d0c",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxPopup",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {}
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "de293a0b1f64414490154e4c5d2b2609",
+    "sourceUserWidget": "add9f1545b4b433d8189a2e17d2dbd9b",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

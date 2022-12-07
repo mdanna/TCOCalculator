@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "32dp"
     },
     "_left_": {
         "type": "string",
@@ -21,12 +21,12 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "",
     "_skin_": "s6fde9baffa44dce806b712e4f9f566e",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "3dp"
     },
     "_width_": {
         "type": "string",
@@ -46,11 +46,10 @@
     "containerweight": 100,
     "contentalignment": 4,
     "desktopweb": {
-        "placeholderSkin": "s6bc082bba2744118bd649b35f23d681"
+        "placeholderSkin": "s0e4950cf8b845819ba18c2c98f5e045"
     },
-    "disabledSkins": {
-        "focusSkin": "s73570f4ed574e3c831418d0c2274d63"
-    },
+    "disabledSkins": {},
+    "focusskin": "s6fde9baffa44dce806b712e4f9f566e",
     "id": "txtField",
     "info": null,
     "iscustomlayout": false,
@@ -58,11 +57,11 @@
     "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "i2f412165b784e04bad4d38821560e72",
-    "mode": "N",
+    "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "ContactInfoEditField",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s6bc082bba2744118bd649b35f23d681",
+    "placeholderskin": "s0e4950cf8b845819ba18c2c98f5e045",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

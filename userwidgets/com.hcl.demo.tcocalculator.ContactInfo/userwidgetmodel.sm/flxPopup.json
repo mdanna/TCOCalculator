@@ -32,7 +32,6 @@
         "value": "580dp"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
@@ -65,6 +64,14 @@
     "name": "kony.ui.FlexContainer",
     "parent": "ContactInfo",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

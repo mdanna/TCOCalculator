@@ -1,13 +1,13 @@
 {
   "android": {
-    "font_name": "default",
-    "font_size": 70,
-    "isForked": false
+    "font_name": "Helvetica",
+    "font_size": 80,
+    "isForked": true
   },
   "androidwearos": {
     "font_name": "default",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true
   },
   "background_color": "ffffffff",
   "bg_type": "one",
@@ -17,9 +17,25 @@
   "border_type": 0,
   "border_width": 1,
   "desktopweb": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "fontSizeInPx": false,
   "font_color": "333333ff",
@@ -28,56 +44,152 @@
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
-    "font_name": "System",
-    "font_size": 70,
-    "isForked": false
+    "font_name": "Helvetica",
+    "font_size": 80,
+    "isForked": true
   },
   "iphone": {
-    "font_name": "System",
-    "font_size": 70,
-    "isForked": false
+    "font_name": "Helvetica",
+    "font_size": 80,
+    "isForked": true
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "None",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true
   },
   "kuid": "sbc7dfd95894451093245c51bc30546c",
   "spaan": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "spaandroidtablet": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "spaip": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "spaipad": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "spawindowstablet": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "spawinphone8": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_radius": 5,
+    "bottom_left_border_style": "rc",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_radius": 5,
+    "bottom_right_border_style": "rc",
+    "bottom_right_border_width": 1,
     "font_name": "Helvetica",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_radius": 5,
+    "top_left_border_style": "rc",
+    "top_left_border_width": 1,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_radius": 5,
+    "top_right_border_style": "rc",
+    "top_right_border_width": 1
   },
   "tabrcandroid": {
-    "font_name": "default",
-    "font_size": 70,
-    "isForked": false
+    "font_name": "Helvetica",
+    "font_size": 80,
+    "isForked": true
   },
   "wType": "TextField",
   "watchos": {
@@ -87,12 +199,12 @@
   },
   "windows8": {
     "font_name": "None",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true
   },
   "winphone8": {
     "font_name": "None",
-    "font_size": 70,
-    "isForked": false
+    "font_size": 80,
+    "isForked": true
   }
 }

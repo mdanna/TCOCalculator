@@ -64,6 +64,7 @@
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "texti18n": "i18n_home_info",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

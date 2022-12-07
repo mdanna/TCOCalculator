@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s57a9b3d64bc430f841d16211b63f642",
+    "_skin_": "sefcc9a7c67e4d8aa37d6c5ba72ae51f",
     "_text_": "Number",
     "_top_": {
         "type": "string",
@@ -61,7 +61,7 @@
     "isvisible": true,
     "kuid": "db3e1e0af5b548bcafc641a9fe4fd192",
     "name": "kony.ui.Label",
-    "parent": "flxRadio",
+    "parent": "flxNumber",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

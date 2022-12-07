@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd9baa8d964946bbadc5b2607be7ce85",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "showSubtitle": false,
+        "subtitle": "",
+        "title": "TCO Calculations"
+    },
+    "id": "howHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af49baec403c408998231a6ea032b7bf",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHow",
+    "pf": "frmHow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "e3f4175a26624c88b17a9d2a5e42af4f",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

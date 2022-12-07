@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s57a9b3d64bc430f841d16211b63f642",
+    "_skin_": "sefcc9a7c67e4d8aa37d6c5ba72ae51f",
     "_text_": "Percentage",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -61,7 +61,7 @@
     "isvisible": true,
     "kuid": "g414b158158547f78297a7439244e1a6",
     "name": "kony.ui.Label",
-    "parent": "flxRadio",
+    "parent": "flxPercentage",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

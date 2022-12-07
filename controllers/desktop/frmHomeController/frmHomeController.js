@@ -31,9 +31,10 @@ define({
 
       this.view.flxCalculate.onClick = () => {
         if(this.validate()){
-          const {costMXGoYear1, costCompetitorYear1} = tco.calculate(this.getAppsData());
+          const appsData = this.getAppsData();
+          const {costMXGoYear1, costCompetitorYear1} = tco.calculate(appsData);
           const overallSavings = Math.round(((costCompetitorYear1 - costMXGoYear1)/costCompetitorYear1) * 100);
-          const totalSavings = Math.round((costCompetitorYear1 - costMXGoYear1) / 1000);
+          const totalSavings = Math.round((costCompetitorYear1 - costMXGoYear1));
           this.view.lblOverallSavingsValue.text = `${overallSavings}%`;
           this.view.lblTotalSavingsValue.text = `$${totalSavings}K`;
           this.view.flxResultsInfo.isVisible = true;
@@ -41,6 +42,8 @@ define({
       };
 
       this.view.lblReset.onTouchEnd = () => {
+        this.view.fieldHowManyApps.text = '';
+        this.view.fieldHowManyUsers.text = '';
         this.view.flxNumPerc.isVisible = false;
         this.view.fieldNumPerc.selection = 'none';
         this.view.lblOverallSavingsValue.text = '--%';
@@ -53,7 +56,16 @@ define({
       this.view.flxSeeFullReport.onClick = () => this.view.popupContactInfo.show();
 
       this.view.popupContactInfo.onClickOk = () => {
-        new voltmx.mvc.Navigation('frmFullReport').navigate(this.getAppsData());
+        const isPerc = this.view.fieldNumPerc.selection === 'perc';
+        const appsData = this.getAppsData();
+        const navigationData = isPerc ? {
+          ...appsData,
+          percSimple: this.view.fieldSimple.text,
+          percModerate: this.view.fieldModerate.text,
+          percComplex: this.view.fieldComplex.text,
+          isPerc
+        } : appsData;
+        new voltmx.mvc.Navigation('frmFullReport').navigate(navigationData);
       };
     };
   },

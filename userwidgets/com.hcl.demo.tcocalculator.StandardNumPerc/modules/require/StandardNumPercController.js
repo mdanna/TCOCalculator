@@ -4,11 +4,11 @@ define(function() {
 		constructor(baseConfig, layoutConfig, pspConfig) {
 			this.view.preShow = () => {
               if(!this.initDone){
-                this.view.flxLeft.onClick = () => {
+                this.view.flxNumber.onClick = () => {
                   this.selection = 'num';
                   this.onSelect('num');
                 };
-                this.view.flxRight.onClick = () => {
+                this.view.flxPercentage.onClick = () => {
                   this.selection = 'perc';
                   this.onSelect('perc');
                 };

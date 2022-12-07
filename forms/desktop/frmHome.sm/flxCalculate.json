@@ -4,6 +4,10 @@
         "type": "string",
         "value": "50dp"
     },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
     "_margin_": [
         0,
         0,
@@ -21,24 +25,26 @@
     "_skin_": "s06f565e07074a6f83e08e25ccf323b9",
     "_top_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
-        "value": "99%"
+        "value": "92%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
         "lblCalculate"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s06f565e07074a6f83e08e25ccf323b9"
+        }
+    },
+    "disabledSkins": {},
     "enablescrolling": true,
     "id": "flxCalculate",
     "info": null,

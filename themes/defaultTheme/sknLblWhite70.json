@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "default",
+    "font_name": "Helvetica",
     "font_size": 70,
     "isForked": false
   },
@@ -27,12 +27,12 @@
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
-    "font_name": "System",
+    "font_name": "Helvetica",
     "font_size": 70,
     "isForked": false
   },
   "iphone": {
-    "font_name": "System",
+    "font_name": "Helvetica",
     "font_size": 70,
     "isForked": false
   },
@@ -74,7 +74,7 @@
     "isForked": false
   },
   "tabrcandroid": {
-    "font_name": "default",
+    "font_name": "Helvetica",
     "font_size": 70,
     "isForked": false
   },

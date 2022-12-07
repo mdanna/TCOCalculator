@@ -7,7 +7,27 @@
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "iba6556ade884159b379134fa84a5c4a",
+                    "originalPropertyKey": "onTextChange",
+                    "propertyIndex": 1,
+                    "propertyKey": "onTextChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTextChange",
+                        "srcWidget": "txtField",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db45bce65d2140169d7918edc52969c1",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "groups": {
             "apis": [],
@@ -95,6 +115,54 @@
                         "srcWidget": "txtField",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db45bce65d2140169d7918edc52969c1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g91ae8e15d2549ec98e82e19c827981c",
+                    "originalPropertyKey": "textInputMode",
+                    "propertyIndex": 4,
+                    "propertyKey": "textInputMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textInputMode",
+                        "isHiddenInTool": false,
+                        "masterData": [
+                            [
+                                "key1",
+                                "Any",
+                                "A"
+                            ],
+                            [
+                                "key2",
+                                "Numeric Only",
+                                "N"
+                            ]
+                        ],
+                        "srcWidget": "txtField",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Any",
+                                        "A"
+                                    ],
+                                    [
+                                        "Numeric Only",
+                                        "N"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
                         "wType": "TextField"
                     },
                     "srcWgtKUID": "db45bce65d2140169d7918edc52969c1"

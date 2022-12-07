@@ -36,6 +36,10 @@
         "ContactInfo"
     ],
     "containerweight": 100,
+    "currentBreakpoint": {
+        "kuid": "b1",
+        "width": 1366
+    },
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,
@@ -66,5 +70,8 @@
     "retainscrollposition": false,
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": true
+    },
     "wType": "Form"
 }
