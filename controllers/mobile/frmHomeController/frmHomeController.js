@@ -37,6 +37,21 @@ define({
         this.view.fieldNumPerc.selection = 'none';
       };
 
+      const checkOnTextChange = () => {
+        if(this.validateEntries()){
+          this.view.fieldSimple.skinField = 'sknFlxRoundedBorderWhite';
+          this.view.fieldModerate.skinField = 'sknFlxRoundedBorderWhite';
+          this.view.fieldComplex.skinField = 'sknFlxRoundedBorderWhite';
+        } else {
+          this.view.fieldSimple.skinField = 'sknFlxRoundedBorderRed';
+          this.view.fieldModerate.skinField = 'sknFlxRoundedBorderRed';
+          this.view.fieldComplex.skinField = 'sknFlxRoundedBorderRed';
+        }
+      };
+      
+      this.view.fieldSimple.onTextChange = () => checkOnTextChange();
+      this.view.fieldModerate.onTextChange = () => checkOnTextChange();
+      this.view.fieldComplex.onTextChange = () => checkOnTextChange();
     };
   },
 
@@ -82,9 +97,28 @@ define({
         return false;
       }
     }
-
     return true;
+  },
 
+  validateEntries(){
+    const numApps = parseInt(this.view.fieldHowManyApps.text || '0');
+    let numSimple, numModerate, numComplex;
+    if(this.view.fieldNumPerc.selection === 'perc'){
+      numSimple = Math.round(numApps / 100 * parseFloat((this.view.fieldSimple.text || '0').replace(',', '.')));
+      numModerate = Math.round(numApps / 100 * parseFloat((this.view.fieldModerate.text || '0').replace(',', '.')));
+      numComplex = Math.round(numApps / 100 * parseFloat((this.view.fieldComplex.text || '0').replace(',', '.')));
+      if(numSimple + numModerate + numComplex !== numApps){
+        return false;
+      }      
+    } else {
+      numSimple = parseInt(this.view.fieldSimple.text || '0');
+      numModerate = parseInt(this.view.fieldModerate.text || '0');
+      numComplex = parseInt(this.view.fieldComplex.text || '0');
+      if((numSimple + numModerate + numComplex) !== numApps){
+        return false;
+      }
+    }
+    return true;    
   },
 
   getAppsData(){

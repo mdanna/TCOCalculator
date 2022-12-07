@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "38dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -22,31 +22,27 @@
         0
     ],
     "_placeholder_": "",
-    "_skin_": "sbc7dfd95894451093245c51bc30546c",
+    "_skin_": "s43ef392ad0b4459876762942596da92",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "3dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "99%"
+        "value": "100%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
     "desktopweb": {
-        "placeholderSkin": "s0e4950cf8b845819ba18c2c98f5e045"
+        "placeholderSkin": "se567652f89745a8824600fb94a2c5a2"
     },
     "disabledSkins": {},
     "focusskin": "sbc7dfd95894451093245c51bc30546c",
@@ -61,9 +57,9 @@
     "kuid": "db45bce65d2140169d7918edc52969c1",
     "mode": "N",
     "name": "kony.ui.TextBox2",
-    "parent": "StandardEditField",
+    "parent": "flxField",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s6bc082bba2744118bd649b35f23d681",
+    "placeholderskin": "se567652f89745a8824600fb94a2c5a2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

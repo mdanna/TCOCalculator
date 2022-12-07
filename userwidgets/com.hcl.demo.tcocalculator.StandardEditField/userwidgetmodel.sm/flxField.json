@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "38dp"
     },
     "_left_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,45 +22,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s06f565e07074a6f83e08e25ccf323b9",
+    "_skin_": "s0f86771019045c5aff787166c65e1ef",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "3dp"
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "99%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblCalculate"
+        "txtField"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "desktopweb": {
-        "psp": {
-            "hoverSkin": "s06f565e07074a6f83e08e25ccf323b9"
-        }
-    },
-    "disabledSkins": {},
     "enablescrolling": true,
-    "id": "flxCalculate",
+    "id": "flxField",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "if500ef7935d47d8a1e5266cf88f22fd",
-    "layouttype": 2,
+    "kuid": "h0db84d6456b47768b6fec9e2a2a8eaa",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxNumPerc",
-    "pf": "frmHome",
+    "parent": "StandardEditField",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

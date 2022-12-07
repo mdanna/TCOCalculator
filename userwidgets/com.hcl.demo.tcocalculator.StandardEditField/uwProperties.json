@@ -166,6 +166,25 @@
                         "wType": "TextField"
                     },
                     "srcWgtKUID": "db45bce65d2140169d7918edc52969c1"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s0f86771019045c5aff787166c65e1ef",
+                    "group": "General",
+                    "kuid": "ia918e3002aa4522a132b4645d95e368",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinField",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinField",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxField",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h0db84d6456b47768b6fec9e2a2a8eaa"
                 }
             ]
         },

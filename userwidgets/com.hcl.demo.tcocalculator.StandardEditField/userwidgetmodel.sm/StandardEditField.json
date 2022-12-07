@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "lblLabel",
-        "txtField"
+        "flxField"
     ],
     "clipbounds": true,
     "containerweight": 100,
