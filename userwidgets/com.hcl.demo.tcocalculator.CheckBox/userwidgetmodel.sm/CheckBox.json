@@ -41,6 +41,11 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sfee1a1b3d5d44b197c58a46b8217bf3"
+        }
+    },
     "enablescrolling": true,
     "id": "CheckBox",
     "info": null,

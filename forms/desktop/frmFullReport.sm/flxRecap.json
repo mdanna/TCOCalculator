@@ -40,6 +40,12 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s7f0c8ffeb3e493a986f0170586243c5"
+        }
+    },
+    "disabledSkins": {},
     "enablescrolling": true,
     "id": "flxRecap",
     "info": null,
