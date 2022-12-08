@@ -1,0 +1,15 @@
+{
+  "name" : "AcmeSalesForce",
+  "type" : "salesforce",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"client_id\":\"3MVG98XJQQAccJQfvEOu7QK2Dz6pSsNLfxiEMIW_wEx_ehw3Ro6RZ9eI1DUIZXncZ7jqEsFE4LtCHchmMOYFZ\",\"client_secret\":\"A23281BBAFAA63029EAA976C7FBAD742AE890E97E8E7BDBCC330F1102B8174AE\",\"url\":\"https://login.salesforce.com\",\"isOAuthEnabled\":\"true\",\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"}}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "isIntegrityEnabled" : true,
+  "ssoenabled" : false,
+  "empty" : true
+}

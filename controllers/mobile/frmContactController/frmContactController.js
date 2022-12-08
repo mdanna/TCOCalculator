@@ -1,6 +1,6 @@
 define({ 
-  SKIN_ENABLE: 'sknLblBlack70',
-  SKIN_DISABLE: 'sknLblDarkGrey70',
+  SKIN_ENABLE: 'sknLblBlack80',
+  SKIN_DISABLE: 'sknLblDarkGrey80',
 
   onViewCreated(){
     this.view.init = () => {

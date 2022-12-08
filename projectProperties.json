@@ -85,7 +85,7 @@
     "apmserviceresponse": "false",
     "apmtouchorclick": "",
     "appaddrkey": "",
-    "appidkey": "Pippo",
+    "appidkey": "TCOCalculator",
     "appiniteventkey": "None",
     "applepushfunc": "None",
     "apploadeventkey": "None",
@@ -395,9 +395,9 @@
     "keychainPassword": "",
     "kfAppInfo": {
         "a36d94e9-65a2-4c80-a043-5922f2951968": {
-            "appName": "App 36",
-            "baseId": "ee82de1a-b0bd-4d39-b5f4-1c84f4dfba50",
-            "id": "ee82de1a-b0bd-4d39-b5f4-1c84f4dfba50",
+            "appName": "TCOCalculator",
+            "baseId": "ce39f83f-b9ad-4b54-bf62-1cc9448a5707",
+            "id": "ce39f83f-b9ad-4b54-bf62-1cc9448a5707",
             "version": "1.0"
         }
     },

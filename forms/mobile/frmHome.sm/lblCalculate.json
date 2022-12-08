@@ -17,7 +17,7 @@
         0,
         0
     ],
-    "_skin_": "sb4d5c72740d4423ac10d895a926e4ae",
+    "_skin_": "s6ce4f0e73eb489781864ba5f7d0ad96",
     "_text_": "CALCULATE",
     "_width_": {
         "type": "string",
@@ -61,6 +61,7 @@
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

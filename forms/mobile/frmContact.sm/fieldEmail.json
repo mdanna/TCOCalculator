@@ -42,6 +42,7 @@
     "data": {
         "label": "Email *",
         "placeholder": "   ",
+        "skinLabel": "sefcc9a7c67e4d8aa37d6c5ba72ae51f",
         "textInputMode": "A"
     },
     "id": "fieldEmail",

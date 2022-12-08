@@ -1,0 +1,12 @@
+{
+  "subType" : "customapp",
+  "description" : "This app is created from Studio App TCOCalculator.\r\n",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "EmailSrv",
+    "version" : "1.0",
+    "etag" : "600c3608-2a6e-4625-b943-3049a8f675cf"
+  } ],
+  "identity" : [ "AcmeSalesForce", "SalesForceIdentity" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

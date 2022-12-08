@@ -1,0 +1,8 @@
+{
+  "filename": "TCOCalculator.zip",
+  "channels": "responsive_web",
+  "upgradable": false,
+  "displayname": "TCOCalculator",
+  "description": "Binary for TCOCalculator",
+  "version": "1.0.0"
+}

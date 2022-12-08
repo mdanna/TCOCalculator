@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="sendEmail" passwordencrypted="false" security="authorized_app_user" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;serviceName&quot;:&quot;sendEmail&quot;}"/>
+        <config-param api-version="" appid="" name="metadataformatterobject" value="{&quot;displayName&quot;:&quot;sendEmail&quot;,&quot;description&quot;:null,&quot;serviceName&quot;:&quot;sendEmail&quot;}"/>
+        <config-param api-version="" appid="" name="isCustomQuery" value="false"/>
+        <config-param api-version="" appid="" name="customQuery" value=""/>
+        <config-param api-version="" appid="" name="http_auth_mode" value="none"/>
+        <config-param api-version="" appid="" name="authservicetype" value="IdentityProvider"/>
+        <config-param api-version="" appid="" name="adaptertype" value="CUSTOM"/>
+        <config-param api-version="" appid="" name="basepackage" value="com.kony.adapter.email"/>
+        <config-param api-version="" appid="" name="identityProviderType" value=""/>
+        <config-param api-version="" appid="" name="identityProvider" value=""/>
+        <config-param api-version="" appid="" name="mapped_to" value="Email_Operations.sendEmail"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="to" order="" paramOrder="1" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="feng.zhang@hcl.com" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="cc" order="" paramOrder="2" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="bcc" order="" paramOrder="3" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="message" order="" paramOrder="4" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Greetings, an approved estimate with ID $projectId is available for viewing. &lt;br/&gt; &lt;br/&gt; The estimate can be viewed at the following link:&lt;br/&gt; https://dsta-academy.demo-hclvoltmx.net/apps/IndiaOilPOC/?projectID=$projectId&lt;br/&gt; &lt;br/&gt; Thank you,&lt;br/&gt; India Oil POC Team" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="subject" order="" paramOrder="5" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Approved Pipeline Estimate available for viewing" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="attachmentLinks" order="" paramOrder="6" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="projectId" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="10" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="" description="" encode="false" format="" formatvalue="" name="criteria" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <record id="emailResult" order="" paramOrder="1" parentOrder="0" src="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="requestId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="message" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </record>
+    </service-output>
+</service>

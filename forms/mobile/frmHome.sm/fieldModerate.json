@@ -37,7 +37,8 @@
     "containerweight": 0,
     "data": {
         "label": "Moderate (e.g. Expense Management, Timesheet)",
-        "placeholder": "Number moderate applications"
+        "placeholder": "Number moderate applications",
+        "skinLabel": "sefcc9a7c67e4d8aa37d6c5ba72ae51f"
     },
     "id": "fieldModerate",
     "info": null,

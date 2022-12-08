@@ -169,7 +169,6 @@
                 },
                 {
                     "access": "Enable",
-                    "defaultSkinKUID": "s0f86771019045c5aff787166c65e1ef",
                     "group": "General",
                     "kuid": "ia918e3002aa4522a132b4645d95e368",
                     "originalPropertyKey": "skin",
@@ -178,6 +177,7 @@
                     "pw": {
                         "access": "readwrite",
                         "category": "skin",
+                        "dependencyConditions": {},
                         "dependentKeysKUIDs": null,
                         "displayName": "skinField",
                         "isHiddenInTool": false,
@@ -185,6 +185,25 @@
                         "wType": "FlexContainer"
                     },
                     "srcWgtKUID": "h0db84d6456b47768b6fec9e2a2a8eaa"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s57a9b3d64bc430f841d16211b63f642",
+                    "group": "General",
+                    "kuid": "fd7ed2bc149547ffadf220802a60af5e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "skinLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinLabel",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g19da899bf1f458d8c634eb0bd46929e"
                 }
             ]
         },

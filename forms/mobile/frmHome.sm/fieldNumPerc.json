@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "label": "How many of the apps would you categorize as simple, moderate and complex?  *"
+        "label": "How many of the apps would you categorize as simple, moderate and complex?  *",
+        "skinLabel": "sefcc9a7c67e4d8aa37d6c5ba72ae51f"
     },
     "id": "fieldNumPerc",
     "info": null,

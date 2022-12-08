@@ -113,7 +113,6 @@
                 },
                 {
                     "access": "Enable",
-                    "defaultSkinKUID": "sdf7385686c1413091d4558ea1b5073f",
                     "group": "General",
                     "kuid": "f61d8b137b724c1d9572ba6c8f3419a5",
                     "originalPropertyKey": "skin",
@@ -122,6 +121,7 @@
                     "pw": {
                         "access": "readwrite",
                         "category": "skin",
+                        "dependencyConditions": {},
                         "dependentKeysKUIDs": null,
                         "displayName": "skinLink",
                         "isHiddenInTool": false,
@@ -129,6 +129,81 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "j18b17e78f1c48b0a9e933a3c8c188e8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b98b6af4b0e144f3b98b71a53eba5c96",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 6,
+                    "propertyKey": "widthClickable",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "widthClickable",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxClickable",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f2cb1e8a8f8b468a9964cf01fcd85af6"
                 }
             ]
         },
