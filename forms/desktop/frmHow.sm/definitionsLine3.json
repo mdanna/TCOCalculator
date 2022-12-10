@@ -37,8 +37,6 @@
         "type": "string",
         "value": "100%"
     },
-    "android": {},
-    "androidwearos": {},
     "areflexpropsreferenced": false,
     "autogrowmode": 1,
     "canUpdateUI": true,
@@ -69,7 +67,7 @@
         "lblCircle": {
             "__events__": {},
             "__info__": {
-                "kuid": "d3e2fa7f719c4263996e8c039d8f6897",
+                "kuid": "d40c13a68c1c45a49f1539793f34eaa6",
                 "srcKUID": "bf23682020324cf4a84179a5d42bec1f",
                 "wType": "Label"
             },
@@ -84,7 +82,7 @@
         "lblDefinition": {
             "__events__": {},
             "__info__": {
-                "kuid": "e4436e00767e4287a7c9af7fd226f9de",
+                "kuid": "d5be5a5645ac4f5dabf21bda2e9ee706",
                 "srcKUID": "e4e9438739304116a9e98a911e78b885",
                 "wType": "Label"
             },
@@ -94,7 +92,7 @@
         "lblTitle": {
             "__events__": {},
             "__info__": {
-                "kuid": "efac6078f8e6450db00ce14d8ccb34fe",
+                "kuid": "fe8f36a4fabe441c886d018308a0eb15",
                 "srcKUID": "ba7331f6ded84af2930d6c2b7d17c5bc",
                 "wType": "Label"
             },
@@ -108,21 +106,17 @@
             "text": "Integrations:"
         }
     },
-    "desktopweb": {},
     "enablescrolling": true,
     "id": "definitionsLine3",
     "info": null,
-    "ipad": {},
-    "iphone": {},
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kiosk": {},
     "kuid": "i7623ca552bc476091ed94f3cdf25708",
     "layouttype": 3,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxBody",
+    "parent": "flxContent",
     "pf": "frmHow",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -130,23 +124,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "g7858c3e3720496d876a502ef95ef750",
-    "spa": {},
-    "spaan": {},
-    "spaandroidtablet": {},
-    "spabb": {},
-    "spaip": {},
-    "spaipad": {},
-    "spamobile": {},
-    "spatablet": {},
-    "spawindowstablet": {},
-    "spawinphone8": {},
-    "tabrcandroid": {},
-    "vizProps": {
-        "hidewidgethierarchy": false
-    },
-    "wType": "UserWidgetInstance",
-    "windows10": {},
-    "windows8": {},
-    "winphone10": {},
-    "winphone8": {}
+    "wType": "UserWidgetInstance"
 }

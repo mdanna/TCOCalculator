@@ -1,7 +1,7 @@
 define(function() {
   
-  const SKIN_ENABLE = 'sknLblBlack70';
-  const SKIN_DISABLE = 'sknLblDarkGrey70';
+  const SKIN_ENABLE = 'sknLblBlackSemiBold70';
+  const SKIN_DISABLE = 'sknLblDarkGreySemiBold70';
 
 	return {
       constructor(baseConfig, layoutConfig, pspConfig) {

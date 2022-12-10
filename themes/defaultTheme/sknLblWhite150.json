@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
@@ -16,7 +16,7 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
@@ -27,54 +27,54 @@
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Medium",
     "font_size": 150,
     "isForked": false
   },
   "iphone": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "None",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "kuid": "se41c4ea875243f0bf6e7fa879645184",
   "spaan": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "spaandroidtablet": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "spaip": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "spaipad": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "spawindowstablet": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "spawinphone8": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "tabrcandroid": {
-    "font_name": "Helvetica",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
@@ -85,12 +85,12 @@
     "isForked": false
   },
   "windows8": {
-    "font_name": "None",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   },
   "winphone8": {
-    "font_name": "None",
+    "font_name": "Inter-Regular",
     "font_size": 150,
     "isForked": false
   }

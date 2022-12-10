@@ -35,8 +35,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgLogo",
-        "lblVoltMX"
+        "imgLogo"
     ],
     "clipbounds": true,
     "containerweight": 100,

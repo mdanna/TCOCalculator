@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 0,
@@ -46,7 +46,7 @@
     "kuid": "f9ae0c4c9a5249a5bb5dd79f1df1f3fd",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxData",
+    "parent": "flxTopFields",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -51,7 +51,7 @@
         "lblCircle": {
             "__events__": {},
             "__info__": {
-                "kuid": "b5d167333c694a01ad460e01c63369fc",
+                "kuid": "idd67a0f1e7f4b908d2254e6e1f3e8f2",
                 "srcKUID": "bf23682020324cf4a84179a5d42bec1f",
                 "wType": "Label"
             },
@@ -66,7 +66,7 @@
         "lblDefinition": {
             "__events__": {},
             "__info__": {
-                "kuid": "f43444821e2240f1b834f39002577ee9",
+                "kuid": "a1b7106170404533975a7d4502abc68e",
                 "srcKUID": "e4e9438739304116a9e98a911e78b885",
                 "wType": "Label"
             },
@@ -76,7 +76,7 @@
         "lblTitle": {
             "__events__": {},
             "__info__": {
-                "kuid": "ce8edb25aee043b182b05c7bedd5ae9c",
+                "kuid": "cb74a2825a0f4032846ae7d38ab81ad5",
                 "srcKUID": "ba7331f6ded84af2930d6c2b7d17c5bc",
                 "wType": "Label"
             },
@@ -100,7 +100,7 @@
     "layouttype": 3,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxBody",
+    "parent": "flxContent",
     "pf": "frmHow",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

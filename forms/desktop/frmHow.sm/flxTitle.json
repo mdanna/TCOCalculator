@@ -28,8 +28,8 @@
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "iaaaf96a12a1463b9cfadbb73e9d4b20",
     "name": "kony.ui.Label",
-    "parent": "flxBody",
+    "parent": "flxContent",
     "pf": "frmHow",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

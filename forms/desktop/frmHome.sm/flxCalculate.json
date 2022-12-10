@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -53,7 +53,7 @@
     "kuid": "if500ef7935d47d8a1e5266cf88f22fd",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxNumPerc",
+    "parent": "flxActions",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -59,7 +59,7 @@
     "layouttype": 3,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
-    "parent": "flxBody",
+    "parent": "flxContent",
     "pf": "frmHow",
     "responsiveData": {
         "b2": {

@@ -34,7 +34,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "flxBody"
+        "flxScroller"
     ],
     "clipbounds": true,
     "containerweight": 100,

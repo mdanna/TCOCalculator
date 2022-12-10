@@ -2,25 +2,10 @@ define({
 
   onViewCreated(){
     this.view.init = () => {
-      this.view.flxBody.doLayout = () => {
-        (this.view.flxBody.frame.width > 1000) && (this.view.flxBody.width = '1000dp');
-      };
-      this.view.flxContent.doLayout = () => {
-        this.view.flxContent.height = `${this.view.flxBody.frame.height - this.view.flxTitle.frame.height - 40}dp`;
-      };
-      this.view.flxTitle.doLayout = () => {
-        this.view.flxContent.height = `${this.view.flxBody.frame.height - this.view.flxTitle.frame.height - 40}dp`;
-      };
-      this.view.flxResults.doLayout = () => {
-        this.view.flxData.width = `${this.view.flxContent.frame.width - this.view.flxResults.frame.width - 90}dp`;
-        this.view.flxData.height = `${this.view.flxContent.frame.height}dp`;
-      };
-      this.view.flxResultsHeader.doLayout = () => {
-        this.view.flxResultsInfo.height = `${this.view.flxResults.frame.height - this.view.flxResultsHeader.frame.height}dp`;
-      };
 
       this.view.fieldNumPerc.onSelect = (selection) => {
         this.view.flxNumPerc.isVisible = true;
+        this.view.flxActions.isVisible = true;
         this.view.fieldSimple.text = '';
         this.view.fieldModerate.text = '';
         this.view.fieldComplex.text = '';
@@ -45,6 +30,7 @@ define({
         this.view.fieldHowManyApps.text = '';
         this.view.fieldHowManyUsers.text = '';
         this.view.flxNumPerc.isVisible = false;
+        this.view.flxActions.isVisible = false;
         this.view.fieldNumPerc.selection = 'none';
         this.view.lblOverallSavingsValue.text = '--%';
         this.view.lblTotalSavingsValue.text = '$--';

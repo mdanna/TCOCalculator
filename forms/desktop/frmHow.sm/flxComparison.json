@@ -58,7 +58,7 @@
         "value": ""
     },
     "name": "kony.ui.FlexContainer",
-    "parent": "flxBody",
+    "parent": "flxContent",
     "pf": "frmHow",
     "responsiveData": {
         "b1": {
