@@ -36,7 +36,9 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "showSubtitle": false
+        "showSubtitle": false,
+        "subtitle": "  ",
+        "title": "Volt MX Go Savings"
     },
     "id": "resultsHeader",
     "info": null,
