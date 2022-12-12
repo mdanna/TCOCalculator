@@ -63,6 +63,11 @@
     "name": "kony.ui.Label",
     "parent": "flxContent",
     "pf": "frmFullReport",
+    "responsiveData": {
+        "b1": {
+            "text": "See the following cost comparison to see why Volt MX Go makes the most business and technical sense for your applications."
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

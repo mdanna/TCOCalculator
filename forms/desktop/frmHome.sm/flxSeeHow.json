@@ -18,7 +18,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7f0c8ffeb3e493a986f0170586243c5",
+    "_skin_": "s768ee27c1d84861854960682738913d",
     "_top_": {
         "type": "string",
         "value": "25dp"
@@ -41,7 +41,7 @@
     "containerweight": 100,
     "desktopweb": {
         "psp": {
-            "hoverSkin": "s7f0c8ffeb3e493a986f0170586243c5"
+            "hoverSkin": "s768ee27c1d84861854960682738913d"
         }
     },
     "disabledSkins": {},

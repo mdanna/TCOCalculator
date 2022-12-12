@@ -16,9 +16,9 @@ define({
       this.view.flxCalculate.onClick = () => {
         if(this.validate()){
           const isPerc = this.view.fieldNumPerc.selection === 'perc';
-          const percSimple = isPerc ? parseInt(this.view.fieldSimple.text) : 0;
-          const percModerate = isPerc ? parseInt(this.view.fieldModerate.text) : 0;
-          const percComplex = isPerc ? parseInt(this.view.fieldComplex.text) : 0;
+          const percSimple = isPerc ? parseFloat(this.view.fieldSimple.text) : 0;
+          const percModerate = isPerc ? parseFloat(this.view.fieldModerate.text) : 0;
+          const percComplex = isPerc ? parseFloat(this.view.fieldComplex.text) : 0;
           const appsData = this.getAppsData();
           new voltmx.mvc.Navigation('frmResults').navigate({
             ...appsData,
@@ -84,10 +84,10 @@ define({
 
     let numSimple, numModerate, numComplex;
     if(this.view.fieldNumPerc.selection === 'perc'){
-      numSimple = Math.round(numApps / 100 * parseFloat(this.view.fieldSimple.text.replace(',', '.')));
-      numModerate = Math.round(numApps / 100 * parseFloat(this.view.fieldModerate.text.replace(',', '.')));
-      numComplex = Math.round(numApps / 100 * parseFloat(this.view.fieldComplex.text.replace(',', '.')));
-      if(numSimple + numModerate + numComplex !== numApps){
+      numSimple = numApps / 100 * parseFloat(this.view.fieldSimple.text.replace(',', '.'));
+      numModerate = numApps / 100 * parseFloat(this.view.fieldModerate.text.replace(',', '.'));
+      numComplex = numApps / 100 * parseFloat(this.view.fieldComplex.text.replace(',', '.'));
+      if(Math.round(numSimple + numModerate + numComplex) !== numApps){
         this.view.popupAlert.text = 'Invalid Percentage Values.';
         this.view.popupAlert.isVisible = true;
         return false;
@@ -109,10 +109,10 @@ define({
     const numApps = parseInt(this.view.fieldHowManyApps.text || '0');
     let numSimple, numModerate, numComplex;
     if(this.view.fieldNumPerc.selection === 'perc'){
-      numSimple = Math.round(numApps / 100 * parseFloat((this.view.fieldSimple.text || '0').replace(',', '.')));
-      numModerate = Math.round(numApps / 100 * parseFloat((this.view.fieldModerate.text || '0').replace(',', '.')));
-      numComplex = Math.round(numApps / 100 * parseFloat((this.view.fieldComplex.text || '0').replace(',', '.')));
-      if(numSimple + numModerate + numComplex !== numApps){
+      numSimple = numApps / 100 * parseFloat((this.view.fieldSimple.text || '0').replace(',', '.'));
+      numModerate = numApps / 100 * parseFloat((this.view.fieldModerate.text || '0').replace(',', '.'));
+      numComplex = numApps / 100 * parseFloat((this.view.fieldComplex.text || '0').replace(',', '.'));
+      if(Math.round(numSimple + numModerate + numComplex) !== numApps){
         return false;
       }      
     } else {
@@ -130,11 +130,10 @@ define({
     const numApps = parseInt(this.view.fieldHowManyApps.text);
     const numUsers = parseInt(this.view.fieldHowManyUsers.text);
     let numSimple, numModerate, numComplex;
-    const isPerc = this.view.fieldNumPerc.selection === 'perc';
-    if(isPerc){
-      numSimple = Math.round(numApps / 100 * parseFloat(this.view.fieldSimple.text.replace(',', '.')));
-      numModerate = Math.round(numApps / 100 * parseFloat(this.view.fieldModerate.text.replace(',', '.')));
-      numComplex = Math.round(numApps / 100 * parseFloat(this.view.fieldComplex.text.replace(',', '.')));
+    if(this.view.fieldNumPerc.selection === 'perc'){
+      numSimple = numApps / 100 * parseFloat(this.view.fieldSimple.text.replace(',', '.'));
+      numModerate = numApps / 100 * parseFloat(this.view.fieldModerate.text.replace(',', '.'));
+      numComplex = numApps / 100 * parseFloat(this.view.fieldComplex.text.replace(',', '.'));
     } else {
       numSimple = parseInt(this.view.fieldSimple.text);
       numModerate = parseInt(this.view.fieldModerate.text);
