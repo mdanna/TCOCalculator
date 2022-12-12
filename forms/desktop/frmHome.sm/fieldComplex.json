@@ -37,7 +37,8 @@
     "containerweight": 0,
     "data": {
         "label": "Complex (e.g. Claims Handling, Loan Approvals)",
-        "placeholder": "Number complex applications"
+        "placeholder": "Number complex applications",
+        "skinLabel": "sfdb8c71ef0547398b8a4ad5e078acda"
     },
     "id": "fieldComplex",
     "info": null,

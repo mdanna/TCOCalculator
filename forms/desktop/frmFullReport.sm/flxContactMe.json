@@ -59,6 +59,18 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxBody",
     "pf": "frmFullReport",
+    "responsiveData": {
+        "b2": {
+            "isVisible": false,
+            "width": {
+                "type": "string",
+                "value": "250dp"
+            }
+        },
+        "b3": {
+            "isVisible": true
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

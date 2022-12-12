@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "60dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_text_": "A Volt MX representative will reach out to provide a personalized analysis of your report.",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -65,6 +65,7 @@
     "pf": "frmFullReport",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

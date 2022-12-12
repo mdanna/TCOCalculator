@@ -37,7 +37,8 @@
     "containerweight": 0,
     "data": {
         "label": "How many users need to access the apps? *",
-        "placeholder": "Enter the number of users"
+        "placeholder": "Enter the number of users",
+        "skinLabel": "sfdb8c71ef0547398b8a4ad5e078acda"
     },
     "id": "fieldHowManyUsers",
     "info": null,

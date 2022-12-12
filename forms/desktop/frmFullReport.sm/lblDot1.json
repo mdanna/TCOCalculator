@@ -59,6 +59,11 @@
     "name": "kony.ui.Label",
     "parent": "flxAppsBottom",
     "pf": "frmFullReport",
+    "responsiveData": {
+        "b1": {
+            "skin": "s9673d2b87424dec8cb8a55cddfdb9f3"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

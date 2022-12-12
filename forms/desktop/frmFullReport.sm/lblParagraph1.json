@@ -63,6 +63,24 @@
     "name": "kony.ui.Label",
     "parent": "flxBody",
     "pf": "frmFullReport",
+    "responsiveData": {
+        "b2": {
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        },
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

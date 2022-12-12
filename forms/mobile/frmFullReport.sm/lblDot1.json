@@ -61,6 +61,7 @@
     "pf": "frmFullReport",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

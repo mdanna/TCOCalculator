@@ -58,8 +58,8 @@
         }
     },
     "currentBreakpoint": {
-        "kuid": "b2",
-        "width": 1024
+        "kuid": "b1",
+        "width": 1366
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -126,7 +126,7 @@
     "titlebar": true,
     "type": 3,
     "vizProps": {
-        "globalRespDesignEnabled": true
+        "globalRespDesignEnabled": false
     },
     "wType": "Form",
     "windows8": {
