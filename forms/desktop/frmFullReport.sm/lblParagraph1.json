@@ -64,6 +64,9 @@
     "parent": "flxBody",
     "pf": "frmFullReport",
     "responsiveData": {
+        "b1": {
+            "text": "Volt MX Go includes unique capabilities not found in solutions from vendors like Mendix, OutSystems and Microsoft. HCL's unmatched combination of technology and expertise will speed up your application development and ensure that your projects will be delivered on time, on budget and with less risk."
+        },
         "b2": {
             "width": {
                 "type": "string",
