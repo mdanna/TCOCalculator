@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -25,51 +29,26 @@
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "flxTitle",
-        "flxContent",
-        "flxFooter"
+        "lblPoweredBy"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBody",
+    "id": "flxFooter",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "idf82afbbf8849be8478be2feaa9adb3",
-    "layouttype": 4,
-    "maxwidth": {
-        "type": "string",
-        "value": "1000dp"
-    },
+    "kuid": "de44304b54fb4c3195fccbdf13f7c25f",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxScroller",
+    "parent": "flxBody",
     "pf": "frmHome",
-    "responsiveData": {
-        "b1": {
-            "width": {
-                "type": "string",
-                "value": "85%"
-            }
-        },
-        "b2": {},
-        "b3": {
-            "width": {
-                "type": "string",
-                "value": "95%"
-            }
-        }
-    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

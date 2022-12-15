@@ -1,9 +1,5 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "30dp"
-    },
     "_height_": {
         "type": "ref",
         "value": "preferred"
