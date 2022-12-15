@@ -10,6 +10,12 @@ define({
 
       this.view.flxSeeFullReport.onClick = () => {
         if(this.view.lblSeeFullReport.skin === this.SKIN_ENABLE){
+          tco.user = {
+            email: this.view.fieldEmail.text,
+            company: this.view.fieldCompany.text,
+            firstName: this.view.fieldFirstName.text,
+            lastName: this.view.fieldLastName.text
+          };
           new voltmx.mvc.Navigation('frmFullReport').navigate(this.navigationContext);
         }
       };

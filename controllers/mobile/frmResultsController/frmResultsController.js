@@ -6,8 +6,11 @@ define({
         new voltmx.mvc.Navigation('frmHome').navigate();
       };
 
-      this.view.flxSeeFullReport.onClick = () => new voltmx.mvc.Navigation('frmContact').navigate(this.navigationContext);
-      
+      this.view.flxSeeFullReport.onClick = () => {
+        tco.user ? new voltmx.mvc.Navigation('frmFullReport').navigate(this.navigationContext) : 
+        new voltmx.mvc.Navigation('frmContact').navigate(this.navigationContext);
+      };
+
       this.view.flxSeeHow.onClick = () => new voltmx.mvc.Navigation('frmHow').navigate(this.navigationContext);
     };
 

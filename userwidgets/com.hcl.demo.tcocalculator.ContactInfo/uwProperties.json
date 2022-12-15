@@ -46,7 +46,92 @@
         },
         "properties": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f9ef380e08694ec5b16825880429e2d9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "email",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "email",
+                        "isHiddenInTool": false,
+                        "srcWidget": "fieldEmail",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c8bf42222d8b4051b0599732fdeb7b24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d5702e962be344639b5022287e463e5a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "company",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "company",
+                        "isHiddenInTool": false,
+                        "srcWidget": "fieldCompany",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "jd83c54cb9014558869365162d33c975"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jc41c2c32b3349d19259e9a66241549f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "firstName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "firstName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "fieldFirstName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b1aa3d9af6bc495cbae6471208561f84"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed7bad8d29844cb48b42ff2d5cc10276",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "lastName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lastName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "fieldLastName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "jf425c03268c494497292474ba33d341"
+                }
+            ]
         },
         "widgets": {
             "expose": [],

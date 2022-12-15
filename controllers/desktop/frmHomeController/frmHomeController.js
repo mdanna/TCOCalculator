@@ -39,21 +39,20 @@ define({
 
       this.view.flxSeeHow.onClick = () => new voltmx.mvc.Navigation('frmHow').navigate();
 
-      this.view.flxSeeFullReport.onClick = () => this.view.popupContactInfo.show();
+      this.view.flxSeeFullReport.onClick = () => {
+        tco.user ? this.navigateToFullReport() : this.view.popupContactInfo.show();
+      };
 
       this.view.popupContactInfo.onClickOk = () => {
-        const isPerc = this.view.fieldNumPerc.selection === 'perc';
-        const appsData = this.getAppsData();
-        const navigationData = isPerc ? {
-          ...appsData,
-          percSimple: this.view.fieldSimple.text,
-          percModerate: this.view.fieldModerate.text,
-          percComplex: this.view.fieldComplex.text,
-          isPerc
-        } : appsData;
-        new voltmx.mvc.Navigation('frmFullReport').navigate(navigationData);
+        tco.user = {
+          email: this.view.popupContactInfo.email,
+          company: this.view.popupContactInfo.company,
+          firstName: this.view.popupContactInfo.firstName,
+          lastName: this.view.popupContactInfo.lastName
+        };
+        this.navigateToFullReport();
       };
-      
+
       const checkOnTextChange = () => {
         if(this.validateEntries()){
           this.view.fieldSimple.skinField = 'sknFlxRoundedBorderWhite';
@@ -65,7 +64,7 @@ define({
           this.view.fieldComplex.skinField = 'sknFlxRoundedBorderRed';
         }
       };
-      
+
       this.view.fieldHowManyApps.onTextChange = () => {
         if(this.view.fieldNumPerc.selection === 'perc' || this.view.fieldNumPerc.selection === 'num'){
           checkOnTextChange();
@@ -121,7 +120,7 @@ define({
     }
     return true;
   },
-  
+
   validateEntries(){
     const numApps = parseInt(this.view.fieldHowManyApps.text || '0');
     let numSimple, numModerate, numComplex;
@@ -157,5 +156,18 @@ define({
       numComplex = parseInt(this.view.fieldComplex.text);
     }
     return {numApps, numUsers, numSimple, numModerate, numComplex};
+  },
+
+  navigateToFullReport(){
+    const isPerc = this.view.fieldNumPerc.selection === 'perc';
+    const appsData = this.getAppsData();
+    const navigationData = isPerc ? {
+      ...appsData,
+      percSimple: this.view.fieldSimple.text,
+      percModerate: this.view.fieldModerate.text,
+      percComplex: this.view.fieldComplex.text,
+      isPerc
+    } : appsData;
+    new voltmx.mvc.Navigation('frmFullReport').navigate(navigationData);
   }
 });
